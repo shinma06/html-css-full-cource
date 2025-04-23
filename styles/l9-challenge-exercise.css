@@ -1,0 +1,41 @@
+.box {
+    width: 300px;
+    height: 460px;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 300px;
+}
+
+.name,
+.friends,
+button {
+    margin-left: 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px 0 10px 10px;
+}
+
+.friends {
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    font-size: 20px;
+    margin-top: 10px;
+    border-style: none;
+    color: white;
+    background-color: blue;
+    padding: 10px 25px;
+    border-radius: 5px;
+}

@@ -1,0 +1,72 @@
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  border-style: none;
+}
+
+.sign-up {
+  margin-top: 5px;
+  color: white;
+  background-color: blue;
+  padding: 10px 73px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.sign-up-form input {
+  padding: 8.5px 3px 8.5px 10px;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: 12px;
+}
+
+.first-name,
+.last-name {
+  width: 80px;
+}
+
+.last-name {
+  margin-left: 2px;
+}
+
+.email {
+  width: 180px;
+  margin-top: 5px;
+  display: block;
+}
+
+.Uber p {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.Uber input {
+  background-color: rgb(235, 235, 235);
+  display: block;
+  border-style: none;
+  padding: 12px 110px 12px 20px;
+}
+
+.location {
+  margin-bottom: 10px;
+}
+
+.Uber button {
+  margin-top: 28px;
+}
+
+.request {
+  color: white;
+  background-color: black;
+  padding: 11px;
+  margin-right: 10px;
+}
+
+.schedule {
+  padding: 11px;
+}

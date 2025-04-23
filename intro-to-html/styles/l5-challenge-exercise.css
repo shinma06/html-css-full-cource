@@ -1,0 +1,99 @@
+p {
+  font-family: Arial;
+}
+
+.apple {
+  text-align: center;
+}
+
+.new {
+  color: orange;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.macbook {
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.for-pro {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price {
+  font-size: 13px;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+button {
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  background-color: blue;
+  border-style: none;
+  border-radius: 50px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.google {
+  font-size: 27px;
+  margin-bottom: 0;
+}
+
+.usd {
+  font-size: 13px;
+  color: gray;
+}
+
+.green {
+  color: green;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.after {
+  color: gray;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.red {
+  color: red;
+}
+
+.user-name {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.user-id {
+  color: gray;
+  font-weight: normal;
+}
+
+.post {
+  width: 500px;
+}
+
+.post-top {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.post-bottom {
+  margin-top: 15px;
+}
+
+.mention {
+  color: blue;
+  cursor: pointer;
+}

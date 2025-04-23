@@ -1,0 +1,109 @@
+.buttons {
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.uber-button {
+  color: white;
+  background-color: black;
+  border-style: none;
+  height: 36px;
+  width: 110px;
+  transition: opacity 0.1s;
+}
+
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+.amazon-button {
+  color: black;
+  background-color: rgb(255, 216, 20);
+  border-style: none;
+  height: 36px;
+  width: 165px;
+  border-radius: 18px;
+}
+
+.amazon-button:hover {
+  background-color: rgb(255, 196, 20);
+}
+
+.github-button {
+  color: white;
+  background-color: rgb(46, 164, 79);
+  border-style: none;
+  height: 36px;
+  width: 90px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.github-button:hover {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bootstrap-buttons {
+  height: 36px;
+  width: 105px;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: background-color 0.1s,
+    color 0.1s;
+}
+
+.bootstrap-start-button {
+  color: white;
+  background-color: rgb(121, 82, 179);
+  border-style: none;
+  margin-right: 8px;
+}
+
+.bootstrap-start-button:hover {
+  background-color: rgb(93, 63, 139);
+}
+
+.bootstrap-download-button {
+  color: rgb(108, 117, 125);
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+}
+
+.bootstrap-download-button:hover {
+  color: white;
+  background-color: rgb(108, 117, 125);
+}
+
+.linkedln-buttons {
+  height: 36px;
+  border-radius: 18px;
+  font-weight: bold;
+}
+
+.linkedln-apply-button {
+  color: white;
+  background-color: rgb(10, 102, 194);
+  border-style: none;
+  width: 210px;
+  margin-right: 8px;
+}
+
+.linkedln-apply-button:hover {
+  background-color: rgb(5, 60, 116);
+}
+
+.linkedln-save-button {
+  color: rgb(10, 102, 194);
+  background-color: white;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-width: 1px;
+  width: 60px;
+}
+
+.linkedln-save-button:hover {
+  background-color: rgb(201, 228, 255);
+  border-width: 2px;
+}

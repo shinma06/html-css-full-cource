@@ -1,0 +1,86 @@
+.back-button,
+.next-button {
+  padding: 8px 7px;
+  border: gray solid 1px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.page-nation {
+  margin: 10px 0;
+}
+
+.nation-num {
+  margin: 0 5px;
+}
+
+.back-button {
+  margin-right: 5px;
+}
+
+.next-button {
+  margin-left: 5px;
+}
+
+.stretch-button,
+.shadow-button,
+.num-button {
+  padding: 5px 10px;
+  border-style: none;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.stretch-button {
+  transition: 0.8s;
+}
+
+.stretch-button:hover {
+  padding: 15px 30px;
+}
+
+.shadow-button {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.shadow-button:active {
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-bottom: 7px;
+  box-shadow: none;
+}
+
+.button-one {
+  margin-right: 5px;
+  transition: padding 0.5s, margin 0.5s;
+}
+
+.button-one:hover {
+  padding: 5px 15px;
+  margin: 0 -2.5px;
+}
+
+.button-two {
+  margin: 0 5px;
+  transition: padding 0.5s, margin 0.5s;
+
+}
+
+.button-two:hover {
+  padding: 5px 20px;
+  margin: 0 -5px;
+}
+
+.button-three {
+  margin-left: 5px;
+  transition: padding 0.5s, margin 0.5s;
+}
+
+.button-three:hover {
+  padding: 5px 15px;
+  margin: 0 -2.5px;
+}

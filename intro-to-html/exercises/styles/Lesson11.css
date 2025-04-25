@@ -1,0 +1,65 @@
+.grid0 {
+	display: grid;
+	grid-template-columns: 200px 75px;
+}
+
+.grid1 {
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 50px 1fr 75px;
+}
+
+.grid2 {
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 10px;
+}
+
+.grid3 {
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 30px;
+}
+
+.box {
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	background-position: center;
+}
+
+img {
+	width: 100%;
+}
+
+.name,
+.friends,
+button {
+	margin-left: 10px;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 15px 0 10px 10px;
+}
+
+.friends {
+	font-size: 22px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+button {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: none;
+	color: white;
+	background-color: blue;
+	padding: 10px 25px;
+	border-radius: 5px;
+	cursor: pointer;
+}

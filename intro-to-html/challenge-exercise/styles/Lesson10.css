@@ -30,7 +30,8 @@ button {
     margin-bottom: 0px;
     display: inline-block;
     color: gray;
-    vertical-align: m;
+    vertical-align: top;
+    padding-top: 10px;
 }
 
 button {

@@ -99,7 +99,6 @@ img {
 .home {
   color: white;
   margin-left: 15px;
-  background-color: aqua;
 }
 
 .search {
@@ -120,7 +119,6 @@ img {
 }
 
 .download {
-  background-color: aqua;
   display: flex;
   justify-content: flex-end;
   align-items: center;

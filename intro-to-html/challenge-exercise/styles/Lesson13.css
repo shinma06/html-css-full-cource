@@ -1,0 +1,145 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.all-inboxes {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.title {
+  color: gray;
+  font-size: 13px;
+  margin: 5px 10px;
+}
+
+.pets {
+  display: flex;
+  flex-flow: column;
+}
+
+.pet-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  margin: 2.5px 5px;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.pet-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pet-name {
+  font-weight: bold;
+}
+
+.time {
+  color: gray;
+  font-size: 12px;
+}
+
+.pet-status {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.popular {
+  color: gray;
+  font-size: 16px;
+}
+
+.popular {
+  font-size: 14px;
+}
+
+.pet-follow {
+  color: white;
+  background-color: skyblue;
+  border-style: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+}
+
+.url-tweet {
+  display: flex;
+  width: 370px;
+  margin: 10px;
+}
+
+.user-info {
+  display: flex;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-id {
+  color: gray;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.tweet-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-text {
+  margin: 5px 0;
+}
+
+.url-preview {
+  margin-top: 5px;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.preview-img {
+  width: 50%;
+  background-color: lightgray;
+  border-radius: 10px 0 0 10px;
+}
+
+.preview-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.preview-domain {
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.preview-text {
+  color: black;
+}

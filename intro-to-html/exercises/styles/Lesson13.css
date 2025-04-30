@@ -1,0 +1,20 @@
+.flex0 {
+  display: flex;
+  height: 50px;
+}
+
+.flex0-0 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.flex0-0 p {
+  color: white;
+  background-color: black;
+}
+
+.flex0-1 {
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+}

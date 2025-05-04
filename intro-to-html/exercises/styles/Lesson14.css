@@ -1,5 +1,10 @@
 body {
   height: 3000px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 .bottom-right {
@@ -18,4 +23,8 @@ body {
   right: 0;
   bottom: 0;
   width: 100px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
 }
